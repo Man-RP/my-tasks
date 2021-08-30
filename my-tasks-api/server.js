@@ -2,6 +2,8 @@ const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 
+const Task = require("./models/task");
+
 const app = express();
 const port = 3000;
 
