@@ -1,9 +1,10 @@
-import "./App.css";
+import styles from "./App.module.css";
+import NewTask from "./components/NewTask";
 
 function App() {
   return (
-    <div role="main" className="App">
-      Hello World!
+    <div role="main" className={styles.App}>
+      <NewTask />
     </div>
   );
 }

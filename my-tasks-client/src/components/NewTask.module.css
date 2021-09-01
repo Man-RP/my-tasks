@@ -1,0 +1,39 @@
+.container {
+  background-color: #fff;
+  width: 625px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.form {
+  margin-top: 30px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.submit {
+  margin-top: 10px;
+  text-transform: capitalize;
+  width: 90px;
+  height: 35px;
+  background-color: #627179;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 15px;
+}
